@@ -1,0 +1,93 @@
+  #what-1 {
+      background: url('/dist/img/section2.svg') no-repeat center center/cover;
+      height: 700px;
+      position: relative;
+      color: #fff;
+      .content {
+          display: flex;
+          flex-direction: column;
+          align-content: center;
+          justify-content: center;
+          text-align: left;
+          height: 100%;
+          backface-visibility: hidden;
+      }
+      .what-box {
+          width: 543;
+          height: 374px;
+          margin-right: auto;
+          box-shadow: 0 2rem 4rem rgba($light-color, .1);
+          background-color: #333;
+          border-radius: 3px;
+          .text-sub {
+              font-family: $main-font;
+              font-size: 16px;
+              padding: 20px 0 0 0;
+              margin-left: 20px;
+          }
+          .heading-secondary {
+              font-family: $secondary-font;
+              font-weight: 300;
+              font-size: 36px;
+              margin-left: 20px;
+              padding: 10px 0 20px 0;
+          }
+          .heading {
+              padding-top: 10px;
+          }
+          .paragraph {
+              text-align: left;
+          }
+          .btn-primary {
+              margin: 20px;
+              padding: 10px 10 20px 10;
+          }
+      }
+  }
+  
+  #what-2 {
+      background: url('/dist/img/section3.svg') no-repeat center center/cover;
+      height: 700px;
+      position: relative;
+      color: #fff;
+      .content {
+          display: flex;
+          flex-direction: column;
+          align-content: center;
+          justify-content: center;
+          text-align: left;
+          height: 100%;
+          backface-visibility: hidden;
+      }
+      .what-box {
+          width: 543;
+          height: 374px;
+          margin-left: auto;
+          box-shadow: 0 2rem 4rem rgba($light-color, .1);
+          background-color: #333;
+          border-radius: 3px;
+          .text-sub {
+              font-family: $main-font;
+              font-size: 16px;
+              padding: 20px 0 0 0;
+              margin-left: 20px;
+          }
+          .heading-secondary {
+              font-family: $secondary-font;
+              font-weight: 300;
+              font-size: 36px;
+              margin-left: 20px;
+              padding: 10px 0 20px 0;
+          }
+          .heading {
+              padding-top: 10px;
+          }
+          .paragraph {
+              text-align: left;
+          }
+          .btn-primary {
+              margin: 20px;
+              padding: 10px 10 20px 10;
+          }
+      }
+  }

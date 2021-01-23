@@ -1,0 +1,88 @@
+  /* Header */
+  
+  .hero {
+      background: url('/dist/img/showcase.svg') no-repeat center center/cover;
+      height: 820px;
+      position: relative;
+      color: #fff;
+  }
+  
+  .hero .content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      height: 100%;
+      padding: 0 20px;
+      backface-visibility: hidden;
+      h1 {
+          font-size: 48px;
+          font-weight: 500;
+          font-family: $main-font;
+          animation-name: moveInLeft;
+          animation-duration: 3s;
+          animation-timing-function: ease-out;
+      }
+      p {
+          font-size: 23px;
+          max-width: 600px;
+          font-weight: 300;
+          margin: 20px 0 30px;
+          letter-spacing: 3px;
+          font-family: $main-font;
+          animation-name: moveInRight;
+          animation-duration: 3s;
+          animation-timing-function: ease-out;
+      }
+      .scroll {
+          font-size: 14px;
+          font-weight: 300;
+          margin-top: 40px;
+          margin-bottom: 0;
+          letter-spacing: 3px;
+          animation-name: moveInBottom;
+          animation-duration: 3s;
+          animation-timing-function: ease-out;
+      }
+      .fa-angle-down {
+          animation-name: moveInBottom;
+          animation-duration: 3s;
+          animation-timing-function: ease-out;
+      }
+  }
+  
+  form.hero-search {
+      width: 600px;
+      animation-name: moveInBottom;
+      animation-duration: 3s;
+      animation-timing-function: ease-out;
+      input[type=text] {
+          padding: 10px;
+          font-size: 14px;
+          font-weight: 100;
+          border: 1px solid #fff;
+          float: left;
+          width: 80%;
+          background: #f1f1f1;
+          font-family: $secondary-font;
+      }
+      button {
+          float: left;
+          width: 20%;
+          padding: 10px;
+          background: $primary-color;
+          color: white;
+          font-size: 14px;
+          font-weight: 100;
+          text-transform: uppercase;
+          letter-spacing: 1px;
+          border: 1px solid #fff;
+          border-left: none;
+          cursor: pointer;
+          font-family: $secondary-font;
+      }
+      button:hover {
+          background-color: #0b7dda;
+      }
+  }

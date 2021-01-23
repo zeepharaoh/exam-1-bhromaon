@@ -1,0 +1,63 @@
+        /*Warpper container */
+        
+        #wrapper {
+            max-width: 1773px;
+            margin: 0 auto;
+            padding: 0 2rem;
+            overflow: auto;
+        }
+        /* Flex items */
+        
+        .flex-items {
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            text-align: center;
+            height: 100%;
+        }
+        
+        .flex-items>div {
+            padding: 20px;
+        }
+        
+        .row {
+            max-width: $grid-width;
+            margin: 0 auto;
+            &:not(:last-child) {
+                margin-bottom: $gutter-vertical;
+                @include mediaMd {
+                    margin-right: $gutter-vertical-small;
+                }
+            }
+            @include clearfix;
+            [class^="col-"] {
+                float: left;
+                &:not(:last-child) {
+                    margin-right: $gutter-horizontal;
+                    @include mediaMd {
+                        margin-bottom: 0;
+                    }
+                }
+                @include mediaMd {
+                    width: 100% !important;
+                }
+            }
+            .col-1-of-2 {
+                width: calc((100% - #{$gutter-horizontal}) / 2);
+            }
+            .col-1-of-3 {
+                width: calc((100% - 2 * #{$gutter-horizontal}) / 3);
+            }
+            .col-2-of-3 {
+                width: calc(2 * ((100% - 2 * #{$gutter-horizontal}) / 3) + #{$gutter-horizontal});
+            }
+            .col-1-of-4 {
+                width: calc((100% - 3 * #{$gutter-horizontal}) / 4);
+            }
+            .col-2-of-4 {
+                width: calc(2 * ((100% - 3 * #{$gutter-horizontal}) / 4) + #{$gutter-horizontal});
+            }
+            .col-3-of-4 {
+                width: calc(3 * ((100% - 3 * #{$gutter-horizontal}) / 4) + 2 * #{$gutter-horizontal});
+            }
+        }

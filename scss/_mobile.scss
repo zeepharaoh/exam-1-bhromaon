@@ -1,0 +1,134 @@
+    // Widescreens
+    @include mediaXl {
+        .showphone {
+            display: none;
+        }
+    }
+    
+    // Desktops & Laptops
+    @include mediaLg {
+        .showphone {
+            display: none;
+        }
+        .story {
+            width: 100% !important;
+            height: 100%;
+            font-size: 16px !important;
+        }
+    }
+    
+    // Tablets & Small Laptops
+    @include mediaMd {
+        .composition {
+            display: none;
+        }
+        .story {
+            width: 100% !important;
+            height: 100%;
+            font-size: 16px !important;
+            img {
+                display: none;
+            }
+        }
+        #what-1 .what-box {
+            width: 100% !important;
+            height: 100%;
+            .text-sub {
+                font-size: 14px;
+            }
+            .heading-secondary {
+                font-size: 24 !important;
+            }
+        }
+        #what-2 .what-box {
+            width: 100% !important;
+            height: 100%;
+            .text-sub {
+                font-size: 14px;
+            }
+            .heading-secondary {
+                font-size: 24 !important;
+            }
+            .paragraph {
+                padding: 0 5px;
+                margin: 0 5px;
+            }
+        }
+        .hide {
+            display: none;
+        }
+        .content .hidePhone {
+            display: none;
+        }
+        .flex-items h3 {
+            font-size: 24px;
+        }
+        form.hero-search {
+            width: 400px;
+            input[type=text] {
+                width: 70%;
+            }
+            button {
+                width: 30%;
+            }
+        }
+    }
+    
+    // Smartphones
+    @include mediaSm {
+        .navbar {
+            align-items: center;
+            justify-content: center;
+        }
+        .hide {
+            display: none;
+        }
+        .hidePhone {
+            display: none;
+        }
+        .content .hidePhone {
+            display: none;
+        }
+        form.hero-search {
+            width: 300px;
+            input[type=text] {
+                width: 90%;
+                font-size: 14px;
+            }
+            button {
+                width: 10%;
+            }
+        }
+        .icons {
+            padding: 10px;
+            h3 {
+                font-size: 20px;
+                margin-bottom: 5px;
+            }
+            i {
+                padding: 5px;
+                font-size: 30px;
+            }
+            .search-icon i {
+                margin-bottom: 5px;
+            }
+            .check-mark-icon i {
+                margin-bottom: 5px;
+            }
+            .thumbs-up-icon i {
+                margin-bottom: 5px;
+            }
+        }
+        .flex-items {
+            flex-direction: column;
+        }
+        form.hero-search {
+            width: 200px;
+            input[type=text] {
+                width: 70%;
+            }
+            button {
+                width: 30%;
+            }
+        }
+    }

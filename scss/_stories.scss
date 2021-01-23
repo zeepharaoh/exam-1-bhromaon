@@ -1,0 +1,54 @@
+#stories {
+    background: url('/dist/img/section4.svg') no-repeat center center/cover;
+    height: 731px;
+    position: relative;
+    color: #fff;
+    .content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        height: 100%;
+        padding: 0 20px;
+        backface-visibility: hidden;
+    }
+    .heading-secondary {
+        font-family: $secondary-font;
+        font-weight: 300;
+        font-size: 36px;
+        margin: 20px 0;
+        padding: 20px 0;
+    }
+    .story {
+        display: flex;
+        width: 1110px;
+        height: 287px;
+        margin: 0 auto;
+        box-shadow: 0 2rem 4rem rgba($light-color, .1);
+        background-color: #333;
+        border-radius: 3px;
+        &__shape {
+            width: 40%;
+            height: 100%;
+        }
+        &__text {
+            .heading {
+                padding-top: 10px;
+            }
+            .paragraph {
+                text-align: left;
+            }
+            .fa-quote-left {
+                display: inline;
+                color: $primary-color;
+                padding-right: 10px;
+            }
+        }
+    }
+}
+
+#about {
+    background: #333;
+    height: 340px;
+}
