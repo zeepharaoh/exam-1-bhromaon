@@ -163,7 +163,6 @@ select {
 #wrapper {
   max-width: 1773px;
   margin: 0 auto;
-  padding: 0 2rem;
   overflow: auto; }
 
 /* Flex items */
@@ -576,7 +575,7 @@ form.hero-search {
   .icons {
     padding: 10px; }
     .icons h3 {
-      font-size: 20px;
+      font-size: 16px;
       margin-bottom: 5px; }
     .icons i {
       padding: 5px;
