@@ -1,2 +1,2 @@
-#Exam-file
-##Sass based and Responsive
+# Exam Repo
+## Sass based and Responsive
